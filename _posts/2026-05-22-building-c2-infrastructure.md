@@ -10,7 +10,7 @@ excerpt: "The objective of this research is to conceal a C2 server from analysts
 
 The objective of this research is to conceal a C2 server from analysts and defenders by
 leveraging cloud services as a facade. The approach combines an AWS-hosted backend with
-Azure API Management as a redirection layer — backed by Microsoft infrastructure, which makes
+Azure API Management as a redirection layer - backed by Microsoft infrastructure, which makes
 traffic appear legitimate to most detection tools.
 
 ## Architecture Overview
