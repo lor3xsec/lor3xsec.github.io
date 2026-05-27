@@ -1,16 +1,23 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Just another guy trying to do red team stuff
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+## PS C:\Users\lor3xsec> whoami
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+My name is Lorenzo,
 
-What else do you need?
+I'm an Offensive Security Consultant with 5+ years of experience in penetration testing and red team operations. I work across web, mobile, API, infrastructure and Active Directory environments, serving clients in sectors such as public administration, healthcare, industry and legal firms.
 
-### My story
+I hold the following certifications:
+- **CRTO** — Certified Red Team Operator
+- **CRTP** — Certified Red Team Professional
+- **OSWA** — Offensive Security Web Assessor
+- **Burp Suite Certified Practitioner**
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+This blog is my personal lab notebook: a place where I share research, tools and writeups on offensive security topics. If a post sparks a new line of thought, it has achieved its goal.
+
+This is not a polished course and it's not marketing material.
+
+It's a living archive of things I'm actively learning.

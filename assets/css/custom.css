@@ -1,0 +1,108 @@
+/* Fix code blocks */
+pre {
+  background: #0d1117 !important;
+  border: 1px solid #00aaff22 !important;
+}
+
+code {
+  color: #c9d1d9 !important;
+}
+
+.highlight .k { color: #ff79c6 !important; }
+.highlight .s { color: #f1fa8c !important; }
+.highlight .c { color: #6272a4 !important; }
+.highlight .n { color: #c9d1d9 !important; }
+.highlight .o { color: #ff79c6 !important; }
+.highlight .nb { color: #8be9fd !important; }
+
+/* Inline code */
+p code, li code {
+  background: #0d1117 !important;
+  color: #00aaff !important;
+  border: 1px solid #00aaff33 !important;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+
+/* Plain code blocks without highlight */
+pre code {
+  color: #c9d1d9 !important;
+  background: transparent !important;
+}
+
+/* Fix blue text on dark bg */
+.highlight .err { color: #c9d1d9 !important; background: transparent !important; }
+.highlight .ge { color: #c9d1d9 !important; }
+
+/* Fix all highlight colors */
+.highlight span { color: #c9d1d9 !important; }
+.highlight .k, .highlight .kd, .highlight .kn { color: #ff79c6 !important; }
+.highlight .s, .highlight .s1, .highlight .s2 { color: #f1fa8c !important; }
+.highlight .c, .highlight .c1, .highlight .cm { color: #6272a4 !important; }
+.highlight .nb { color: #8be9fd !important; }
+.highlight .nf { color: #50fa7b !important; }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111118;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0066cc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00aaff;
+}
+
+/* Post cards */
+.post-preview {
+  border: 1px solid #00aaff33 !important;
+  border-radius: 8px !important;
+  padding: 20px 24px !important;
+  margin-bottom: 20px !important;
+  transition: border-color 0.2s;
+}
+
+.post-preview:hover {
+  border-color: #00aaff88 !important;
+}
+
+/* Social buttons */
+.footer-links .fa-circle {
+  color: #00aaff33 !important;
+}
+
+.footer-links .fa-inverse {
+  color: #00aaff !important;
+}
+
+.footer-links a:hover .fa-circle {
+  color: #00aaff66 !important;
+}
+
+/* Search bar */
+#beautifuljekyll-search-overlay {
+  background: #0d0d14ee !important;
+}
+
+#nav-search-input {
+  background: #111120 !important;
+  color: #c8d0e0 !important;
+  border: 1px solid #00aaff44 !important;
+  border-radius: 6px !important;
+  margin-top: 200px !important;
+}
+
+#nav-search-input::placeholder {
+  color: #4488aa !important;
+}
+
+#nav-search-exit {
+  color: #00aaff !important;
+}
