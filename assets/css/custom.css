@@ -60,30 +60,19 @@ pre code {
   background: #00aaff;
 }
 
-/* Post cards */
+/* Post separator */
 .post-preview {
-  border: 1px solid #00aaff33 !important;
-  border-radius: 8px !important;
-  padding: 20px 24px !important;
-  margin-bottom: 20px !important;
-  transition: border-color 0.2s;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #00aaff22 !important;
+  padding: 20px 0 !important;
+  box-shadow: none !important;
 }
 
 .post-preview:hover {
-  border-color: #00aaff88 !important;
-}
-
-/* Social buttons */
-.footer-links .fa-circle {
-  color: #00aaff33 !important;
-}
-
-.footer-links .fa-inverse {
-  color: #00aaff !important;
-}
-
-.footer-links a:hover .fa-circle {
-  color: #00aaff66 !important;
+  border: none !important;
+  border-bottom: 1px solid #00aaff88 !important;
+  box-shadow: none !important;
 }
 
 /* Search bar */
